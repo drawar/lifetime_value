@@ -14,3 +14,4 @@
 # ============================================================================
 from .metrics import *
 from .zero_inflated_lognormal import *
+from .zero_inflated_gammagamma import *
