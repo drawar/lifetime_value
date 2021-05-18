@@ -25,6 +25,7 @@ pytype_library(
     deps = [
         ":metrics",
         ":zero_inflated_lognormal",
+        ":zero_inflated_gammagamma",
     ],
 )
 
