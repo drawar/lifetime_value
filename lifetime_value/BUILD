@@ -83,3 +83,15 @@ py_test(
         # tensorflow dep,
     ],
 )
+
+pytype_library(
+    name = "zero_inflated_gammagamma",
+    srcs = [
+        "zero_inflated_gammagamma.py",
+    ],
+    srcs_version = "PY3",
+    deps = [
+        # tensorflow dep,
+        # tensorflow_probability dep,
+    ],
+)
